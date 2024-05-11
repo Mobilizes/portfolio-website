@@ -1,7 +1,6 @@
 import React from 'react'
 import { MdOutlineModeNight } from "react-icons/md";
 import { MdModeNight } from "react-icons/md";
-import Education from './education';
 
 function Header() {
   const menu = [

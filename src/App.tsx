@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Header from './Components/header.tsx'
 import Intro from './Components/intro.tsx'
@@ -6,8 +5,6 @@ import Education from './Components/education.tsx'
 import Experience from './Components/experience.tsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className='bg-[url(background.jpg)] bg-cover'>
