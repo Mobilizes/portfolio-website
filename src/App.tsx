@@ -7,7 +7,7 @@ import Experience from './Components/experience.tsx'
 function App() {
   return (
     <>
-      <div className='bg-[url(background.jpg)] bg-cover'>
+      <div className='bg-[url(/public/background.jpg)] bg-cover'>
         <Header/>
         <div className='w-4/5 mx-auto'>
           <Intro/>
